@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>智链 on 曾映彬</title>
+    <link>https://zengyingbin.com/categories/%E6%99%BA%E9%93%BE/</link>
+    <description>Recent content in 智链 on 曾映彬</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 12 Aug 2026 21:00:00 +0800</lastBuildDate>
+    <atom:link href="https://zengyingbin.com/categories/%E6%99%BA%E9%93%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>智链：AI Agent 在 L3/L4 业务流程中的权责契约与三大显影法则</title>
+      <link>https://zengyingbin.com/posts/%E6%99%BA%E9%93%BEai-agent-%E5%9C%A8-l3l4-%E4%B8%9A%E5%8A%A1%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E6%9D%83%E8%B4%A3%E5%A5%91%E7%BA%A6%E4%B8%8E%E4%B8%89%E5%A4%A7%E6%98%BE%E5%BD%B1%E6%B3%95%E5%88%99/</link>
+      <pubDate>Wed, 12 Aug 2026 21:00:00 +0800</pubDate>
+      <guid>https://zengyingbin.com/posts/%E6%99%BA%E9%93%BEai-agent-%E5%9C%A8-l3l4-%E4%B8%9A%E5%8A%A1%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E6%9D%83%E8%B4%A3%E5%A5%91%E7%BA%A6%E4%B8%8E%E4%B8%89%E5%A4%A7%E6%98%BE%E5%BD%B1%E6%B3%95%E5%88%99/</guid>
+      <description>&lt;p&gt;【按】AI 在狂奔，不少企业对智能体（AI Agent）的落地似乎陷入某种认知分裂：要么仍视其为后台自动脚本，对 AI 贡献无感；要么视其为能背锅的独立业务个体，这恐怕会栽跟头。&lt;/p&gt;
+&lt;p&gt;在这篇思考文章定型之际，恰好读到《加州管理评论》（CMR） Sandeep Saini 撰写的《治理智能体企业》一文。文中提到：AI 智能体已从工具转变为行动者（AI agents have transitioned from &amp;ldquo;tools&amp;rdquo; to &amp;ldquo;actors&amp;rdquo; ），如何对其进行规模化治理，是企业更大的挑战与制度性转型。&lt;/p&gt;
+&lt;p&gt;如果商学院学者从宏观视角提出了概念性框架原则，那我试着从过往多家科技与制造巨头供应链实践视角承接这一共识，探讨这些原则下潜到企业 L3/L4 作业流程时，AI Agent 的真实生态位与权责落地契约。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;智链时代，我们试图摸清 AI Agent 应有的位置，以及人的“肌肉记忆”从何而来？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;01 认知死结：后台管道，还是背锅个体？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;当管理者将“AI 驱动流程变革”的构想下潜到业务毛细血管——即企业标准流程的 &lt;strong&gt;L3（业务流程模块） 与 L4（具体岗位作业流程 SOP）&lt;/strong&gt; 时，业务主管和法务总监大概会同时惊叹：&lt;strong&gt;AI Agent 在系统中的生态位到底在哪里？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果把它藏在后台，让它像数据库触发器一样默默运转，这会产生感知真空。一线人员不仅无法有效指挥它，更会产生盲区：如果 AI 帮企业拦截了数百万元的关务合规罚款，因为没有在业务流程图中留下“名分”，组织无法量化大模型投入的真实 ROI。&lt;/p&gt;
+&lt;p&gt;但如果走向另一个极端，在系统中把 AI Agent 设为完全独立的角色，赋予其不受限的自主拍板权，试图让它承担责任，这又一脚踏穿了公司治理的法理红线——虽冰冷但清晰：&lt;/p&gt;
+&lt;p&gt;无论是我国的《企业内部控制基本规范》，还是美国萨班斯法案与全球企业内控 COSO 框架，公司治理底线一致：内部控制是由董事会、监事会、经理层和全体员工实施的过程。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;即，非自然人、非法律实体的 IT 系统，均无资格、也无能力在公司法上承担任何民事与经济的问责。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;一个 AI 关务审查专员归类错了一个 HS Code，导致海关对公司处以数百万元巨额罚款。你不可能扣留 AI 模型的薪水来赔偿损失。这笔责任，最终还得由签署、批准该套自动化流程的人类主管以血肉之躯承担。&lt;/p&gt;
+&lt;p&gt;由此，我们得出第一个结论：&lt;strong&gt;在智链时代，须在业务流程中赋予 AI Agent 显性、平权的角色地位；同时，也须铸造一道坚固的法理权责防火墙。&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;02 底层契约：操作控制权与业务问责权的分离&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;要想让 AI Agent 成为 L3/L4 流程中的高阶生产力，又不引发企业风控崩塌，我们须在组织架构底座上，确立一条新创的&lt;strong&gt;权责契约：&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

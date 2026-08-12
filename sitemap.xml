@@ -2,16 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zengyingbin.com/posts/</loc>
-    <lastmod>2026-08-12T00:00:00+00:00</lastmod>
+    <loc>https://zengyingbin.com/categories/</loc>
+    <lastmod>2026-08-12T21:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://zengyingbin.com/posts/my-first-insight/</loc>
-    <lastmod>2026-08-12T00:00:00+00:00</lastmod>
+    <loc>https://zengyingbin.com/posts/</loc>
+    <lastmod>2026-08-12T21:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://zengyingbin.com/categories/%E6%99%BA%E9%93%BE/</loc>
+    <lastmod>2026-08-12T21:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://zengyingbin.com/posts/%E6%99%BA%E9%93%BEai-agent-%E5%9C%A8-l3l4-%E4%B8%9A%E5%8A%A1%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E6%9D%83%E8%B4%A3%E5%A5%91%E7%BA%A6%E4%B8%8E%E4%B8%89%E5%A4%A7%E6%98%BE%E5%BD%B1%E6%B3%95%E5%88%99/</loc>
+    <lastmod>2026-08-12T21:00:00+08:00</lastmod>
   </url><url>
     <loc>https://zengyingbin.com/</loc>
-    <lastmod>2026-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-12T21:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://zengyingbin.com/categories/</loc>
+    <loc>https://zengyingbin.com/posts/%E8%AF%BB%E6%9D%8E%E5%BD%95%E6%96%87%E6%98%8E%E7%8E%B0%E4%BB%A3%E5%8C%96%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84%E4%B8%8E%E4%B8%AD%E5%9B%BD%E5%AF%B9%E7%9F%A5%E8%AF%86%E8%AF%9A%E5%AE%9E%E5%AF%B9%E8%87%AA%E5%B7%B1%E8%AF%9A%E5%AE%9E/</loc>
+    <lastmod>2026-08-11T21:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://zengyingbin.com/categories/%E9%98%85%E8%AF%BB%E4%B8%8E%E5%88%A4%E6%96%AD/</loc>
+    <lastmod>2026-08-11T21:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://zengyingbin.com/posts/%E6%B2%A1%E6%9C%89%E6%97%B6%E9%97%B4%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%9C%E8%A5%BF%E6%80%BB%E6%98%AF%E8%AE%A9%E4%BA%BA%E4%B8%8D%E6%94%BE%E5%BF%83/</loc>
+    <lastmod>2026-08-10T21:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://zengyingbin.com/categories/%E7%AC%91%E5%92%8C/</loc>
+    <lastmod>2026-08-10T21:00:00+08:00</lastmod>
   </url><url>
     <loc>https://zengyingbin.com/tags/</loc>
   </url>

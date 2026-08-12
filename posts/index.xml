@@ -1,20 +1,152 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on 笑和信息技术工作室 | 曾映彬的独立思考</title>
+    <title>Posts on 曾映彬</title>
     <link>https://zengyingbin.com/posts/</link>
-    <description>Recent content in Posts on 笑和信息技术工作室 | 曾映彬的独立思考</description>
+    <description>Recent content in Posts on 曾映彬</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 12 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 21:00:00 +0800</lastBuildDate>
     <atom:link href="https://zengyingbin.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>智链架构重组：从云端神话到物理现实</title>
-      <link>https://zengyingbin.com/posts/my-first-insight/</link>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-      <guid>https://zengyingbin.com/posts/my-first-insight/</guid>
-      <description>&lt;p&gt;这是工作室脱离第三方平台劫持，实现数据资产绝对主权的第一步。&lt;/p&gt;
-&lt;p&gt;真正的商业壁垒，永远建立在底层的物理控制力之上。&lt;/p&gt;</description>
+      <title>智链：AI Agent 在 L3/L4 业务流程中的权责契约与三大显影法则</title>
+      <link>https://zengyingbin.com/posts/%E6%99%BA%E9%93%BEai-agent-%E5%9C%A8-l3l4-%E4%B8%9A%E5%8A%A1%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E6%9D%83%E8%B4%A3%E5%A5%91%E7%BA%A6%E4%B8%8E%E4%B8%89%E5%A4%A7%E6%98%BE%E5%BD%B1%E6%B3%95%E5%88%99/</link>
+      <pubDate>Wed, 12 Aug 2026 21:00:00 +0800</pubDate>
+      <guid>https://zengyingbin.com/posts/%E6%99%BA%E9%93%BEai-agent-%E5%9C%A8-l3l4-%E4%B8%9A%E5%8A%A1%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E6%9D%83%E8%B4%A3%E5%A5%91%E7%BA%A6%E4%B8%8E%E4%B8%89%E5%A4%A7%E6%98%BE%E5%BD%B1%E6%B3%95%E5%88%99/</guid>
+      <description>&lt;p&gt;【按】AI 在狂奔，不少企业对智能体（AI Agent）的落地似乎陷入某种认知分裂：要么仍视其为后台自动脚本，对 AI 贡献无感；要么视其为能背锅的独立业务个体，这恐怕会栽跟头。&lt;/p&gt;
+&lt;p&gt;在这篇思考文章定型之际，恰好读到《加州管理评论》（CMR） Sandeep Saini 撰写的《治理智能体企业》一文。文中提到：AI 智能体已从工具转变为行动者（AI agents have transitioned from &amp;ldquo;tools&amp;rdquo; to &amp;ldquo;actors&amp;rdquo; ），如何对其进行规模化治理，是企业更大的挑战与制度性转型。&lt;/p&gt;
+&lt;p&gt;如果商学院学者从宏观视角提出了概念性框架原则，那我试着从过往多家科技与制造巨头供应链实践视角承接这一共识，探讨这些原则下潜到企业 L3/L4 作业流程时，AI Agent 的真实生态位与权责落地契约。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;智链时代，我们试图摸清 AI Agent 应有的位置，以及人的“肌肉记忆”从何而来？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;01 认知死结：后台管道，还是背锅个体？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;当管理者将“AI 驱动流程变革”的构想下潜到业务毛细血管——即企业标准流程的 &lt;strong&gt;L3（业务流程模块） 与 L4（具体岗位作业流程 SOP）&lt;/strong&gt; 时，业务主管和法务总监大概会同时惊叹：&lt;strong&gt;AI Agent 在系统中的生态位到底在哪里？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果把它藏在后台，让它像数据库触发器一样默默运转，这会产生感知真空。一线人员不仅无法有效指挥它，更会产生盲区：如果 AI 帮企业拦截了数百万元的关务合规罚款，因为没有在业务流程图中留下“名分”，组织无法量化大模型投入的真实 ROI。&lt;/p&gt;
+&lt;p&gt;但如果走向另一个极端，在系统中把 AI Agent 设为完全独立的角色，赋予其不受限的自主拍板权，试图让它承担责任，这又一脚踏穿了公司治理的法理红线——虽冰冷但清晰：&lt;/p&gt;
+&lt;p&gt;无论是我国的《企业内部控制基本规范》，还是美国萨班斯法案与全球企业内控 COSO 框架，公司治理底线一致：内部控制是由董事会、监事会、经理层和全体员工实施的过程。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;即，非自然人、非法律实体的 IT 系统，均无资格、也无能力在公司法上承担任何民事与经济的问责。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;一个 AI 关务审查专员归类错了一个 HS Code，导致海关对公司处以数百万元巨额罚款。你不可能扣留 AI 模型的薪水来赔偿损失。这笔责任，最终还得由签署、批准该套自动化流程的人类主管以血肉之躯承担。&lt;/p&gt;
+&lt;p&gt;由此，我们得出第一个结论：&lt;strong&gt;在智链时代，须在业务流程中赋予 AI Agent 显性、平权的角色地位；同时，也须铸造一道坚固的法理权责防火墙。&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;02 底层契约：操作控制权与业务问责权的分离&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;要想让 AI Agent 成为 L3/L4 流程中的高阶生产力，又不引发企业风控崩塌，我们须在组织架构底座上，确立一条新创的&lt;strong&gt;权责契约：&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>读李录《文明、现代化、价值投资与中国》：对知识诚实，对自己诚实</title>
+      <link>https://zengyingbin.com/posts/%E8%AF%BB%E6%9D%8E%E5%BD%95%E6%96%87%E6%98%8E%E7%8E%B0%E4%BB%A3%E5%8C%96%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84%E4%B8%8E%E4%B8%AD%E5%9B%BD%E5%AF%B9%E7%9F%A5%E8%AF%86%E8%AF%9A%E5%AE%9E%E5%AF%B9%E8%87%AA%E5%B7%B1%E8%AF%9A%E5%AE%9E/</link>
+      <pubDate>Tue, 11 Aug 2026 21:00:00 +0800</pubDate>
+      <guid>https://zengyingbin.com/posts/%E8%AF%BB%E6%9D%8E%E5%BD%95%E6%96%87%E6%98%8E%E7%8E%B0%E4%BB%A3%E5%8C%96%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84%E4%B8%8E%E4%B8%AD%E5%9B%BD%E5%AF%B9%E7%9F%A5%E8%AF%86%E8%AF%9A%E5%AE%9E%E5%AF%B9%E8%87%AA%E5%B7%B1%E8%AF%9A%E5%AE%9E/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_png/sibBhH4JqyV6NdXQOmqdqxDhIeokmQQhs491wPEGd2RZ2Sje7AQqp7F5oxpvbGCKJz4hmMCjmETp6WQbEqDSZJg/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=0&#34;&gt;&lt;/p&gt;
+&lt;p&gt;第一次读这本书是在 2020 年一天晚上，印象深刻的原因是当时一高中好友发信问我在干啥，我简单回复：读李录。&lt;/p&gt;
+&lt;p&gt;书中信息量很大，作者有丰富的人生阅历，字里行间有很多智慧，值得多读多品。&lt;/p&gt;
+&lt;p&gt;初次阅读后，我脑海中回荡最多的一句话是：对知识诚实，对自己诚实。&lt;/p&gt;
+&lt;p&gt;次年的一次阅读后，我在书评处写下简短的几个关键词句，其实每一个都值得认真展开——&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;对知识诚实&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;人类文明演进：1.0 文明&amp;gt;2.0 文明&amp;gt;3.0 文明。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;现代化的本质与铁律：现代科技与自由市场经济相结合……放弃闭关锁国……&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;长期、累进、复利的增长。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;受托人责任。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;追求真知。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;……&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;【对知识诚实，对自己诚实】&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我对书中提到的“对知识诚实”观点深感赞同。&lt;/p&gt;
+&lt;p&gt;在信息多元而爆炸时代，知识的重要性不言而喻且愈加明显。&lt;/p&gt;
+&lt;p&gt;就个体而言，对知识诚实和对自己诚实同样至关重要。对知识诚实意味着我们要以真实的态度对待所接触到的知识，而对自己诚实则意味着我们要有勇气正视自己的不足和弱点。&lt;/p&gt;
+&lt;p&gt;对知识诚实是获取真正知识的基础。&lt;/p&gt;
+&lt;p&gt;我们会接触到各样知识的信息源，如书、如网、如人，如物&amp;hellip;&amp;hellip;而并非所有的信息都是准确可靠的。这需要我们保持批判性思维，对所接触到的知识进行“ 明辨之”。只有对知识保持诚实的态度，才有机会真正付诸实践并达成目标，否则，只可能被虚假错误的观点信息误导牵引。&lt;/p&gt;
+&lt;p&gt;对自己诚实是保持个体成长的关键。&lt;/p&gt;
+&lt;p&gt;昨天中秋节，听说月亮圆得完美，但人是不可能完美的。作为个体，只有勇于正视和接纳自己的不足与弱点，才有可能得以突破。这需要保持谦虚和开放，这是对自己诚实。&lt;/p&gt;
+&lt;p&gt;对知识诚实和对自己诚实相互促进。&lt;/p&gt;
+&lt;p&gt;对知识的诚实，我们能够不断学习和成长，增加知识储备和认知能力。对自己诚实，我们能够准确地认识自己，接纳自己，并在此基础上进行自我完善。&lt;/p&gt;
+&lt;p&gt;基于两种诚实，我们有机会成为一个真实、坦诚、自信而有价值的人。&lt;/p&gt;
+&lt;p&gt;&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;【部分摘录】&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;你需要知道自己不知道什么。这是最重要的事情。对知识的诚实也可以延伸到你如何看待自己的工作职责，以及从更广的角度如何看待自己的职业。&lt;/p&gt;
+&lt;p&gt;清楚地认识到自己知道什么，不知道什么，不需要知道什么，和总有一些自己不知道的未知。只要你总能把问题正确地划分到这四类里，你就能通过考验。否则你就会陷入困境。&lt;/p&gt;
+&lt;p&gt;市场是一个发现人性弱点的机制，在金融危机到来时尤其如此。只有对知识完全诚实，才可能在市场中生存、发展、壮大。&lt;/p&gt;
+&lt;p&gt;学习和思维的惰性是我们人性的一部分，我们常常因为自己知道了什么，就不再去想自己不知道什么，对不知道的东西往往装出知道的样子，更不会去测试自己知道的东西有什么不对的地方。&lt;/p&gt;
+&lt;p&gt;做这个行业最根本的要求，是一定要在知识上做彻彻底底、百分之百诚实的人。千万不能骗自己，因为自己其实最好骗，尤其在这个行业里。&lt;/p&gt;
+&lt;p&gt;当你对一个事情有强烈的兴趣的时候，别人停止学习的时候你可能还在想，别人已经满足的时候你可能还在问，这就会让你获得最重要的优势。&lt;/p&gt;
+&lt;p&gt;让自己的兴趣来引导，用科学的方法、诚实的态度缓慢地、一点一滴地去积累知识，仍然是我看到的唯一可靠的学习方法。&lt;/p&gt;
+&lt;p&gt;如果你对一个公司的研究达到懂的状态，你要能看得出 10 年以后它最坏的情况是什么样。&lt;/p&gt;
+&lt;p&gt;大多数时候你不需要去投资，这是对知识诚实的真谛。能做到这点的人天生有一种特质，可以安心处在主流之外，处在舆论之外，可以忽略大众的意见。这种忽略不是说他人太疯狂，而是说“我不懂”。&lt;/p&gt;
+&lt;p&gt;查理这种思维方式的基础是基于对知识的诚实。他认为，这个世界复杂多变，人类的认知永远存在着限制，所以你必须要使用所有的工具，同时要注重收集各种新的可以证否的证据，并随时修正，即所谓“知之为知之，不知为不知”。&lt;/p&gt;
+&lt;p&gt;&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;（注：本文首发于公众号“笑和时间”，2023 年 10 月 1 日）&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>没有时间积累的东西，总是让人不放心</title>
+      <link>https://zengyingbin.com/posts/%E6%B2%A1%E6%9C%89%E6%97%B6%E9%97%B4%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%9C%E8%A5%BF%E6%80%BB%E6%98%AF%E8%AE%A9%E4%BA%BA%E4%B8%8D%E6%94%BE%E5%BF%83/</link>
+      <pubDate>Mon, 10 Aug 2026 21:00:00 +0800</pubDate>
+      <guid>https://zengyingbin.com/posts/%E6%B2%A1%E6%9C%89%E6%97%B6%E9%97%B4%E7%A7%AF%E7%B4%AF%E7%9A%84%E4%B8%9C%E8%A5%BF%E6%80%BB%E6%98%AF%E8%AE%A9%E4%BA%BA%E4%B8%8D%E6%94%BE%E5%BF%83/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;题记：时间才是第一生产要素。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;![[樟宜机场-微信图片_20260725070527_894_52.jpg]]
+（图源：新加坡@real)&lt;/p&gt;
+&lt;p&gt;生活和工作节奏似乎越来越快，我们对事物推进的节奏要求也越来越紧。&lt;/p&gt;
+&lt;p&gt;“唯快不破”的讲法，总体上，我还是认同的。&lt;/p&gt;
+&lt;p&gt;而，没有时间积累的东西，总是让人不放心。&lt;/p&gt;
+&lt;p&gt;两者要如何统一协调，如何做到既快速又有时间积累呢？&lt;/p&gt;
+&lt;p&gt;什么是时间积累？&lt;/p&gt;
+&lt;p&gt;简单讲，就是对一件事情，你真正的全身心的投入的时间强度和长度。&lt;/p&gt;
+&lt;p&gt;在一个事情上，或一个事情的点上，浇筑足够的时间，随着时间投入的增加，时间会发酵，会产生“化学反应”，会突变，甚至会“涌现”。&lt;/p&gt;
+&lt;p&gt;“浅尝辄止”是时间积累的另一面，不是我们推荐的处事方式。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;为什么要提时间积累？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;有朋友问我有没有用过抖音？我说有啊。&lt;/p&gt;
+&lt;p&gt;然后问我体验如何？&lt;/p&gt;
+&lt;p&gt;我回答说——&lt;/p&gt;
+&lt;p&gt;只在抖音上买过 3 只羊，寄到老家后，就删除了应用，属于极轻度用户，体验感没有代表性。&lt;/p&gt;
+&lt;p&gt;&amp;hellip;&amp;hellip;如非要我说体验的话，那就一个字“躁”——急躁、躁动的躁。&lt;/p&gt;
+&lt;p&gt;视频长短、配音、节律&amp;hellip;&amp;hellip;都在引向一个让人 high 让人“躁”的世界，我会很自然地想到上世纪美国前国安助理布热律斯基讲的一词“奶头乐”。&lt;/p&gt;
+&lt;p&gt;这可能是社会问题，我无意评判，更不会去做道德绑架。&lt;/p&gt;
+&lt;p&gt;将来我可能还会在抖音上买羊，只是仍没有计划长时间保留它。&lt;/p&gt;
+&lt;p&gt;我觉得抖音多多少少将碎片化时代推向了更高潮，先不论这是社会的进步还是另一面，&lt;/p&gt;
+&lt;p&gt;至少作为个体，在做事情的时间积累上，其实是更难了。&lt;/p&gt;
+&lt;p&gt;从我的观察看，现在很多人都将时间积累到屏幕上了，而屏幕上往往播放的是抖音的各种“躁”，&lt;/p&gt;
+&lt;p&gt;也就是说，除了“躁”以外，让人沉下心去做时间积累，变得越来越难了，&lt;/p&gt;
+&lt;p&gt;对个人的挑战也越来越大，因为诱惑太多太好啦~&lt;/p&gt;
+&lt;p&gt;“躁”的门槛实在很低，但收获很快很及时，身在其中，你会觉得“爽”——这符合人性。&lt;/p&gt;
+&lt;p&gt;![[微信图片_20260131090317.jpg]]
+(图源：特立尼达和多巴哥@老范)&lt;/p&gt;
+&lt;p&gt;时间积累，属于极少数人。&lt;/p&gt;
+&lt;p&gt;你得拒绝诱惑，你得有足够的定力，你得够稳，你得知道你要什么……&lt;/p&gt;
+&lt;p&gt;通常情况下，我会认为，时间积累与质量高低成正比。&lt;/p&gt;
+&lt;p&gt;如在一件事情上，专注投入的时间越多，做出的质量会越好，&lt;/p&gt;
+&lt;p&gt;相反，专注投入的时间越少，做出的质量就会越差，或者说不会更好，甚至只能是粗制滥造。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;如何做到时间积累？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;时间积累，首先得明确，你想往哪个方向，或哪个具体的事情上去做时间积累。&lt;/p&gt;
+&lt;p&gt;如要掌握一门语言，你得先愿意投入时间，去使用它，这个过程可能相当枯燥&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;如要做好一个解决方案，想做彻底，你得投入时间，抽丝剥茧，考虑更周全，得顾及到生态系统的各个生态位，兼顾平衡到各个链条上的利益相关方……不断丰富迭代到方案之中。&lt;/p&gt;
+&lt;p&gt;如要做好一个系统产品，仍然少不了投入时间，去梳理业务场景和业务流程、业务活动、角色&amp;hellip;&amp;hellip;未来的业务场景、业务模式、变化趋势&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;这些都少不了关键词：时间积累。&lt;/p&gt;
+&lt;p&gt;“真正的全身心的投入”，跟前几年的流行词汇“心流”是一个意思。&lt;/p&gt;
+&lt;p&gt;只是心流的标准可能太高，在这个碎片化的时代，这个尤其难得，希望你能体会到心流状态。&lt;/p&gt;
+&lt;p&gt;心流是沉浸式的。&lt;/p&gt;
+&lt;p&gt;当你在冥思苦想解决方案时，你很可能进入忘我或忘记时间的情境之中，你在另一个寻找解决方案的世界里遨游&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;时间积累，不是简单随意地消磨时间、看着手表等着时间一分一秒地流走，而是聚焦在自己预定的领域，沉心走下去。&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20260813023102.png]]
+（图源：澜沧江@collin)&lt;/p&gt;
+&lt;p&gt;时间积累，并非要做完美主义。&lt;/p&gt;
+&lt;p&gt;除了方法论以外，“先完成，再完美”是不错的策略。&lt;/p&gt;
+&lt;p&gt;以做解决方案为例，并不是等所有环节所有事情都做到完美无缺了再行动，非也，我们得保持足够的开放度，“半成品”也是可以，也大概率应该拿出来跟大家讨论，我们可能会收获意想不到的“灵感”和启发，然后丰富到我们的解决方案之中，这是一个“吸收宇宙能量”的过程，关键是我们要开放要勇敢。&lt;/p&gt;
+&lt;p&gt;尤其在外部供需环境快速变化情况下，有些东西是得讲时点讲节奏讲时机，借用那句话“一万年太久，只争朝夕”，你得既有紧迫感，又得讲质量。&lt;/p&gt;
+&lt;p&gt;听上去好难，但这也是必须。&lt;/p&gt;
+&lt;p&gt;这个必须，依然要求我们，要保持一贯的“重要优先”原则，即平常说的分清“轻重缓急”。&lt;/p&gt;
+&lt;p&gt;我个人更倾向于从“重要性”维度看问题，不以“急缓”看问题，不重要的事情，虽急但做了又有什么意义呢？不做没意义的事情。&lt;/p&gt;
+&lt;p&gt;而，有一个场景，应尽量避免，就是：不要让重要的事情，变成紧急的事情。&lt;/p&gt;
+&lt;p&gt;——这大概是“拖延症”的结果，那时你不得不付出许多倍的努力，且动作往往会变形。&lt;/p&gt;
+&lt;p&gt;&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;（注：本文首发于公众号“笑和时间”，2023 年 7 月 6 日；本次仅调整图片）&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
