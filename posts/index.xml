@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on 笑和信息技术工作室 | 曾映彬的独立思考</title>
+    <link>https://zengyingbin.com/posts/</link>
+    <description>Recent content in Posts on 笑和信息技术工作室 | 曾映彬的独立思考</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 12 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://zengyingbin.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>智链架构重组：从云端神话到物理现实</title>
+      <link>https://zengyingbin.com/posts/my-first-insight/</link>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://zengyingbin.com/posts/my-first-insight/</guid>
+      <description>&lt;p&gt;这是工作室脱离第三方平台劫持，实现数据资产绝对主权的第一步。&lt;/p&gt;
+&lt;p&gt;真正的商业壁垒，永远建立在底层的物理控制力之上。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
